@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: 50px auto 50px;
+    
+
+    table {
+        border-collapse: collapse;
+        width: 500px;
+        margin: auto;
+        text-align: center;
+        tr {
+
+            &:nth-child(even)
+            {
+                background-color: #84c8ff;
+            }
+            &:nth-child(odd)
+            {
+                background-color: #b1dcff;
+            }
+
+            th,
+            td {
+                padding: 8px;
+            }
+
+            th {
+                background-color: #004eb4;
+                color: #fff;
+            }
+        }
+
+
+
+    }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto 50px;
+}
+.container table {
+  border-collapse: collapse;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.container table tr:nth-child(even) {
+  background-color: #84c8ff;
+}
+.container table tr:nth-child(odd) {
+  background-color: #b1dcff;
+}
+.container table tr th,
+.container table tr td {
+  padding: 8px;
+}
+.container table tr th {
+  background-color: #004eb4;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
